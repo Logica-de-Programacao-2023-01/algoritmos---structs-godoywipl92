@@ -3,18 +3,15 @@ package main
 import (
 	"fmt"
 )
-
 type Musica struct {
 	Titulo   string
 	Artista  string
 	Duracao  string
 }
-
 type Playlist struct {
 	Nome     string
 	Musicas  []Musica
 }
-
 func main() {
 	playlist1 := Playlist{
 		Nome: "Playlist 1",
